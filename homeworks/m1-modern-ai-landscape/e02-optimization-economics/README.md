@@ -51,19 +51,26 @@ mini)
 ---
 ## Ресурсы для углублённого изучения
 
-Документация провайдеров (цены и модели):
+Документация провайдеров (цены и модели):  
+
 • [OpenAI Pricing](platform.openai.com/docs/pricing)
 • [Anthropic Pricing](docs.anthropic.com/en/docs/about-claude/pricing)
 • [Google AI Pricing](ai.google.dev/gemini-api/docs/pricing)
 • [DeepSeek API](api-docs.deepseek.com)
-Локальный запуск:
+
+Локальный запуск:  
+
 • [Ollama](ollama.com) (установка, список моделей)
 • [llama.cpp](github.com/ggml-org/llama.cpp) (движок для GGUF)
 • [HuggingFace GGUF модели](huggingface.co) (поиск по тегу gguf)
-Оптимизация:
+
+Оптимизация:  
+
 • [«Quantize Llama models with GGUF and llama.cpp»](Towards Data Science) (практический гайд)
 • [«The Lottery Ticket Hypothesis»](оригинальная статья Frankle & Carlin (2019))
 • [«DistilBERT, a distilled version of BERT»](оригинальная статья Hugging Face)
-Калькуляторы стоимости:
+
+Калькуляторы стоимости:  
+
 • [pricepertoken.com](pricepertoken.com) — сравнение цен всех провайдеров
 • [costgoat.com](costgoat.com) — калькулятор для конкретных сценариев
