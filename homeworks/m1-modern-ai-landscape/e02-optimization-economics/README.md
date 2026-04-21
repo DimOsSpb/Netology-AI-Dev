@@ -66,9 +66,9 @@ mini)
 
 Оптимизация:  
 
-- [«Quantize Llama models with GGUF and llama.cpp»](Towards Data Science) (практический гайд)
-- [«The Lottery Ticket Hypothesis»](оригинальная статья Frankle & Carlin (2019))
-- [«DistilBERT, a distilled version of BERT»](оригинальная статья Hugging Face)
+- «Quantize Llama models with GGUF and llama.cpp» - Towards Data Science (практический гайд)
+- «The Lottery Ticket Hypothesis» - оригинальная статья Frankle & Carlin (2019)
+- «DistilBERT, a distilled version of BERT» - оригинальная статья Hugging Face
 
 Калькуляторы стоимости:  
 
