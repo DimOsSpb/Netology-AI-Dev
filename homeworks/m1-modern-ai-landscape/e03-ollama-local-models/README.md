@@ -106,7 +106,7 @@ gemma3:1b     8648f39daa8f    815 MB    44 hours ago
 Задача: Математика
 Промт: Сколько будет 2+12*2-3?
 Время: 5.39 сек
-Ответ: Here's how to solve the equation using the order of operations (PEMDAS/BODMAS):
+Ответ: Heres how to solve the equation using the order of operations (PEMDAS/BODMAS):
 
 **1. Multiplication:** 12 * 2 = 24
 
@@ -133,7 +133,7 @@ qwen2:1.5b    - 2.97 сек, качество: 42.9%, оценка: Средне
 gemma2:2b     - 4.39 сек, качество: 81.0%, оценка: Хорошо
 gemma3:1b     - 3.74 сек, качество: 88.1%, оценка: Хорошо
 ```
-3. [Создайте Modelfile с system prompt для вашего проекта](Modefile)
+3. [Создайте Modelfile с system prompt для вашего проекта](Modelfile)
 
 Я изменил состав моделей в тесте, оставил подопытных. Странно - но Modefile сделал ответы модели менее верными. Пока не понял почему.
 
@@ -225,8 +225,8 @@ bench-gemma3:1b - 2.25 сек, качество: 52.4%, оценка: Средн
 gemma3:1b     - 3.52 сек, качество: 85.7%, оценка: Хорошо
 ```
 
-4. Один из сценариев с Structured Outputs:
-- Извлечение сущностей из текста → JSON с полями persons, organizations, dates
+4. [Один из сценариев с Structured Outputs:](Modefile-StructuredOutput)
+- [Извлечение сущностей из текста → JSON с полями persons, organizations, dates](objs_select.py)
 
 ```bash
 (venv) odv@matebook16s:~/project/MY/Netology-AI-Dev/homeworks/m1-modern-ai-landscape/e03-ollama-local-models$ ollama create objsel-gemma2:2b -f Modefile-StructuredOutput
