@@ -21,7 +21,7 @@ huggingface-cli login
   - Суммаризация текстов на русском языке с свободной лицензией, есть ограничения - нет GPU. 
 ## 2. Найдем 3 модели на HuggingFace Hub для выбранной задачи:
   - Мне было интересно посмотреть полный список tasks моделей на HF - [небольшой скрипт с описанием от DeepSeek](src/list_all_tasks.py)
-  - Рассмотрел, поля можно использовать для выбора модели из Model Card (model_info.cardData в скрипте) через автодополнение IDE (LSP)
+  - Рассмотрел, какие поля можно использовать для выбора модели из Model Card (model_info.cardData в скрипте) через автодополнение IDE (LSP)
   - Необходимо выбрать те модели, которые соответствуют требованиям (высокий рейтинг, много загрузок, summarization, russian, размер)
   - [Скрипт отбора](src/list_task_models.py)
   ```bash
@@ -37,7 +37,8 @@ huggingface-cli login
   3  | RussianNLP/FRED-T5-Summarizer                 | 13869      | 27         | 1.62 GB    |  
   ```
 ## 3. Запуск тестов (10+) для оценки inference и accuracy
-- Pipeline - это часть библиотеки transformers. В Transformers v5, summarization удалили [разработчики Hugging Face намеренно удалили устаревшие классы SummarizationPipeline и TranslationPipeline](https://github.com/huggingface/transformers/blob/main/MIGRATION_GUIDE_V5.md#pipelines). Pipeline("summarization") больше не работает. При попытке использовать классический подход возникает ошибка KeyError: "Unknown task summarization". Это означает, что стандартный способ, описанный во многих учебных материалах, устарел. Альтернативный pipeline("text-generation") даёт некорректные результаты и много мусора в выводе. Я могу зафиксировать совместимость на уровне Transformers V4, но предпочту изучить использование AutoTokenizer и AutoModelForSeq2SeqLM. Больше понимания и контроля, тем более модели уже выбраны и готовы к тестам.
+- Pipeline - это часть библиотеки transformers. В Transformers v5, summarization удалили [разработчики Hugging Face намеренно удалили устаревшие классы SummarizationPipeline и TranslationPipeline](https://github.com/huggingface/transformers/blob/main/MIGRATION_GUIDE_V5.md#pipelines). Pipeline("summarization") больше не работает. При попытке использовать классический подход возникает ошибка KeyError: "Unknown task summarization". Это означает, что стандартный способ, описанный во многих учебных материалах, устарел. Альтернативный pipeline("text-generation") даёт некорректные результаты и много мусора в выводе.  
+Я могу зафиксировать совместимость на уровне Transformers V4, но предпочту изучить использование AutoTokenizer и AutoModelForSeq2SeqLM. Больше понимания и контроля, тем более модели уже выбраны и готовы к тестам.
 - [Скрипт тестирования](src/test_models.py)
 ```bash
 (Netology-AI-Dev) odv@matebook16s:~/project/MY/Netology-AI-Dev/homeworks/m1-modern-ai-landscape/e05-opensource-huggingface$ python3 src/test_models.py
@@ -133,7 +134,7 @@ N  | ID модели                                     | avg_time   | total_ti
   - Минимальный размер
   - Быстрее всех
   - Адекватный пересказ
-  - Нет галлюцинаци
+  - Нет галлюцинаций
   
 - RussianNLP/FRED-T5-Summarizer - мимо по всем параметрам. 
 
@@ -237,9 +238,9 @@ N  | ID модели                                     | avg_time   | total_ti
 - Не большие облачные модели, например openai/gpt-4o-mini, отлично справляются с задачей по скорости на уровне локальных моделей на CPU. Но бесплатные облачные ресурсы ограничены.
 
 ## 5. [Gradio-демо](src/demo_gradio.py)
+
 - ![img](img/1.png)
 - [Running on public URL: https://5116a84359adede035.gradio.live](https://5116a84359adede035.gradio.live)
-
 ```bash
 (Netology-AI-Dev) odv@matebook16s:~/project/MY/Netology-AI-Dev/homeworks/m1-modern-ai-landscape/e05-opensource-huggingface$ python3 src/demo_gradio.py
 Загрузка модели...
@@ -252,9 +253,9 @@ Loading weights: 100%|███████████████████�
 This share link expires in 1 week. For free permanent hosting and GPU upgrades, run `gradio deploy` from the terminal in the working directory to deploy to Hugging Face Spaces (https://huggingface.co/spaces)
 ```
 
-
-
-# Ресурсы для углублённого изучения
+---
+---
+## Ресурсы для углублённого изучения
 
 ## [Примеры из лекции](https://github.com/abat-voix/ai-tools-and-links/tree/main/m1_b5)
 ## Платформы:
