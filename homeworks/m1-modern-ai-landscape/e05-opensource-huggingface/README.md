@@ -239,7 +239,7 @@ N  | ID модели                                     | avg_time   | total_ti
 
 ## 5. [Gradio-демо](src/demo_gradio.py)
 
-- ![img](img/1.png)
+![img](img/1.png)
 - [Running on public URL: https://5116a84359adede035.gradio.live](https://5116a84359adede035.gradio.live)
 ```bash
 (Netology-AI-Dev) odv@matebook16s:~/project/MY/Netology-AI-Dev/homeworks/m1-modern-ai-landscape/e05-opensource-huggingface$ python3 src/demo_gradio.py
