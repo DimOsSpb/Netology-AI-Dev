@@ -1,0 +1,6 @@
+.env
+.envrc
+venv
+.venv
+uv.lock
+.python*
