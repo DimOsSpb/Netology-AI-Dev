@@ -4,7 +4,7 @@
 - [Оптимизация и экономика ИИ](e02-optimization-economics/README.md)
 - [Установка Ollama и запуск локальных моделей](e03-ollama-local-models/README.md)
 - [Оптимизация и экономика ИИ](e04-comparison-cost/README.md)
-- [Оптимизация и экономика ИИЭкосистема open-source и HuggingFace](e05-opensource-huggingface/README.md)
+- [Экосистема open-source и HuggingFace](e05-opensource-huggingface/README.md)
 ---
 
 ## Ссылки на ресурсы
