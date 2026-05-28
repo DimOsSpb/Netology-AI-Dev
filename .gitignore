@@ -1,2 +1,6 @@
 *.env
-
+Diploma
+__pycache__
+ruff.toml
+uv.lock
+.python*
