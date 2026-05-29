@@ -2,7 +2,7 @@
 # Домашнее задание
 https://u.netology.ru/backend/uploads/lms/content_assets/file/15195/homeworks_part03.pdf
 ---
-# Решение
+# [Решение](rel.py)
 1. Класс `RobustLLMClient`: обёртка над OpenAI SDK, перехват ошибок 429, 500, таймаутов
 2. Retry: exponential backoff (1s → 2s → 4s → 8s → 16s) + jitter, до 5 попыток. Библиотека tenacity или своя реализация
 3. Fallback-цепочка: OpenAI → OpenRouter → сообщение «Сервис временно недоступен»
