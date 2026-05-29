@@ -85,30 +85,30 @@ odv@matebook16s:~/project/MY/Netology-AI-Dev/homeworks/m2-ai-api-integration/e02
 
 Рекомендации:
 1. **Проверить Service**
-   ```bash
+
    kubectl get svc -n <namespace>
    kubectl describe svc <service-name>
-   ```
+
    - Убедиться, что `type` = NodePort (или LoadBalancer) и `targetPort` соответствует `containerPort`.
    - Если нужен доступ с хоста, добавить/изменить Service на `NodePort` и открыть нужный порт.
 
 2. **Проверить NetworkPolicy**
-   ```bash
+
    kubectl get netpol -n <namespace>
-   ```
+
    - При наличии правил убедиться, что разрешён входящий трафик к `port: <X>` с нужных CIDR.
 
 3. **Проверить firewall/iptables на узле**
-   ```bash
+
    sudo iptables -L -n | grep <X>
    sudo firewall-cmd --list-ports   # если firewalld
-   ```
+
    - Открыть порт, если он закрыт.
 
 4. **Проверить, что приложение слушает на всех интерфейсах**
-   ```bash
+
    kubectl exec -it <pod> -- netstat -tulpn | grep <X>
-   ```
+
    - Если привязано к `127.0.0.1`, изменить конфигурацию приложения (bind to `0.0.0.0`).
 
 5. **Если используется hostPort**
