@@ -1,0 +1,31 @@
+2026-06-03T16:51:19.888983+0300 Redis недоступен: %s
+2026-06-03T16:53:49.199723+0300 Redis недоступен: Error 111 connecting to localhost:6379. Connection refused.
+2026-06-03T17:04:34.750412+0300 Провайдер openai/gpt-oss-120b:free недоступен: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}
+2026-06-03T17:04:34.750753+0300 Переключаюсь на fallback: qwen2:1.5b
+2026-06-03T17:04:36.196507+0300 Провайдер qwen2:1.5b недоступен: Connection error.
+2026-06-03T17:04:36.198996+0300 faq | escalation/none | 0 tok | 3.770s | cache=False | Q: Сколько стоит тариф Pro? | A: Передаю вопрос специалисту.
+2026-06-03T17:05:07.706956+0300 Провайдер openai/gpt-oss-120b:free недоступен: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}
+2026-06-03T17:05:07.707391+0300 Переключаюсь на fallback: qwen2:1.5b
+2026-06-03T17:05:09.032003+0300 Провайдер qwen2:1.5b недоступен: Connection error.
+2026-06-03T17:05:09.033961+0300 technical | escalation/none | 0 tok | 3.076s | cache=False | Q: Не могу загрузить файл, ошибка 413 | A: Передаю вопрос специалисту.
+2026-06-03T17:27:04.823223+0300 technical | cache/cache | 0 tok | 25.698s | cache=True | Q: Не могу загрузить файл, ошибка 413 | A: Передаю вопрос специалисту.
+2026-06-03T17:30:21.718545+0300 technical | cache/cache | 0 tok | 185.301s | cache=True | Q: Не могу загрузить файл, ошибка 413 | A: Передаю вопрос специалисту.
+2026-06-03T17:34:36.984442+0300 Провайдер openai/gpt-oss-120b:free недоступен: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}
+2026-06-03T17:34:36.984701+0300 Переключаюсь на fallback: qwen2:1.5b
+2026-06-03T17:34:38.495577+0300 Провайдер qwen2:1.5b недоступен: Connection error.
+2026-06-03T17:34:38.497344+0300 technical | escalation/none | 0 tok | 3.173s | cache=False | Q: [A[B | A: Передаю вопрос специалисту.
+2026-06-03T17:35:04.937585+0300 Провайдер openai/gpt-oss-120b:free недоступен: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}
+2026-06-03T17:35:04.938055+0300 Переключаюсь на fallback: qwen2:1.5b
+2026-06-03T17:35:06.350376+0300 Провайдер qwen2:1.5b недоступен: Connection error.
+2026-06-03T17:35:06.352275+0300 faq | escalation/none | 0 tok | 3.094s | cache=False | Q: Сколько стоит тариф Pro? | A: Передаю вопрос специалисту.
+2026-06-03T18:09:30.238316+0300 Провайдер openai/gpt-oss-120b:free недоступен: Error code: 503 - {'error': {'message': 'Provider returned error', 'code': 503, 'metadata': {'raw': 'no healthy upstream', 'provider_name': 'OpenInference', 'is_byok': False}}, 'user_id': 'user_38pvuT2oyQOaAcxHIJsB5zj999J'}
+2026-06-03T18:09:30.240048+0300 technical | escalation/none | 0 tok | 59.975s | cache=False | Q: Привет | A: Передаю вопрос специалисту.
+2026-06-03T18:20:15.543903+0300 technical | cache/cache | 0 tok | 311.472s | cache=True | Q: Привет | A: Передаю вопрос специалисту.
+2026-06-03T18:34:33.127857+0300 technical | primary/nvidia/nemotron-nano-9b-v2:free | 0 tok | 16.798s | cache=False | Q: hello | A: Здравствуйте! Как я могу вам помочь по сервису InfraAssist?
+2026-06-03T18:34:47.827793+0300 technical | cache/cache | 0 tok | 2.294s | cache=True | Q: Hello | A: Здравствуйте! Как я могу вам помочь по сервису InfraAssist?
+2026-06-03T18:35:21.416097+0300 faq | primary/nvidia/nemotron-nano-9b-v2:free | 0 tok | 15.585s | cache=False | Q: Сколько стоит тариф Pro? | A: Тариф Pro стоит 299 ₽ в месяц.
+2026-06-03T18:35:34.648098+0300 faq | cache/cache | 0 tok | 1.298s | cache=True | Q: Сколько стоит тариф Pro? | A: Тариф Pro стоит 299 ₽ в месяц.
+2026-06-03T18:36:02.413641+0300 escalation | primary/nvidia/nemotron-nano-9b-v2:free | 0 tok | 13.839s | cache=False | Q: Позовите менеджера | A: Передаю вопросспециалисту.
+2026-06-03T18:36:13.380409+0300 escalation | cache/cache | 0 tok | 1.028s | cache=True | Q: Позовите менеджера | A: Передаю вопросспециалисту.
+2026-06-03T18:37:54.608997+0300 escalation | cache/cache | 0 tok | 6.946s | cache=True | Q: Позовите менеджера | A: Передаю вопросспециалисту.
+2026-06-03T18:38:04.642733+0300 escalation | router/escalation | 0 tok | 1.104s | cache=False | Q: Позовите менеджера | A: Передаю вопрос специалисту. Номер обращения: BC9F9E74.
