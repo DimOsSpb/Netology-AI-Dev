@@ -4,10 +4,10 @@
 // see: https://zed.dev/docs/debugger
 [
   {
-    "label": "b05_suppassist",
+    "label": "b06_mm_suppassist",
     "adapter": "Debugpy",
     "request": "launch",
-    "program": "/home/odv/project/MY/Netology-AI-Dev/homeworks/m2-ai-api-integration/b05_suppassist/__main__.py",
-    "cwd": "/home/odv/project/MY/Netology-AI-Dev/homeworks/m2-ai-api-integration/b05_suppassist",
+    "program": "/home/odv/project/MY/Netology-AI-Dev/homeworks/m2-ai-api-integration/b06_mm_suppassist/__main__.py",
+    "cwd": "/home/odv/project/MY/Netology-AI-Dev/homeworks/m2-ai-api-integration/b06_mm_suppassist",
   },
 ]
