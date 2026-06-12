@@ -2,7 +2,8 @@
 ## Модули
 - [Современный ландшафт ИИ для разработчиков](homeworks/m1-modern-ai-landscape/README.md)
 - [Интеграция с ИИ API](homeworks/m2-ai-api-integration/README.md)
-
+- [Интеграция с ИИ API и архитектура приложений](homeworks/m3/README.md)
+- 
 ---
 ## Ссылки на ресурсы
 - [uv, ruff](https://docs.astral.sh/ruff/)
