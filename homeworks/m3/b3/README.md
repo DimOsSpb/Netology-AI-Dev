@@ -1,5 +1,5 @@
 # Блок 3.3 — Асинхронная обработка запросов к ИИ
-## [Репозиторий с работой](github.com/DimOsSpb/AI-Dev-Diploma/blob/m3-b3/README.md)
+## [Репозиторий с работой](https://github.com/DimOsSpb/AI-Dev-Diploma/tree/2ab83c5bf7bef67098caf2b0065e0e30cfefb0a8)
 ## Результаты
 - scripts/benchmark.py - вывод с результатами работы sync/async без сбоев и примером с assync сетевого сбоя в логах и результатах
 ```bash
