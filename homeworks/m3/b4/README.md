@@ -1,6 +1,6 @@
 # Блок 3.4 — FastAPI-сервис для LLM
 ---
-## [Репозиторий с работой](https://github.com/DimOsSpb/AI-Dev-Diploma/blob/af67bf3cd839f2d5cf7341480b8cd3c94bba6d79/README.md)
+## [Репозиторий с работой](https://github.com/DimOsSpb/AI-Dev-Diploma/tree/22ee7ca21d95a9a346c8424810691646cd917278)
 ## Результаты
 ### Критерии самопроверки
 1. uvicorn
