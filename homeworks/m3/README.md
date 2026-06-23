@@ -5,4 +5,5 @@
 - [Асинхронная обработка запросов к ИИ](b3/README.md)
 - [FastAPI-сервис для LLM](b4/README.md)
 - [Docker и контейнеризация](b5/README.md)
+- 
 ---

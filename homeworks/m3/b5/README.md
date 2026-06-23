@@ -1,6 +1,6 @@
 # Блок 3.5 — Docker и контейнеризация
 ---
-## [Репозиторий с работой]()
+## [Репозиторий с работой](https://github.com/DimOsSpb/AI-Dev-Diploma/tree/v0.3.5)
 ## Результаты
 1. Image = 206MB
 ```bash
