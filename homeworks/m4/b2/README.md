@@ -7,7 +7,7 @@
 
 1. Telegram
 
-![img](1.png)
+![img](img/1.png)
 
 2. Bot
 ```bash
