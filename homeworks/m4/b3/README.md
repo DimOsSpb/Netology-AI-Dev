@@ -2,6 +2,7 @@
 
 ---
 ## [Репозиторий с работой](https://github.com/DimOsSpb/AI-Dev-Diploma/tree/v0.4.3)
+
 ## Результаты
 ```bash
 (diploma) odv@matebook16s:~/project/MY/Netology-AI-Dev/Diploma$ python -m pytest tests/chat/ -v
