@@ -5,3 +5,4 @@
 1. [Эмбеддинги и семантический поиск](b1/README.md)
 2. [Векторные базы данных](b2/README.md)
 3. [Архитектура RAG с LlamaIndex](b3/README.md)
+4. [Chunking и оптимизация качества](b4/README.md)
