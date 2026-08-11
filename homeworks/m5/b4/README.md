@@ -1,7 +1,7 @@
 # Блок 5.4 - Chunking и оптимизация качества
 ---
 
-# [Задание](homeworks/m5/b4/5-4.md)
+# [Задание](5-4.md)
 # Решение
 ## [Репозиторий с работой](https://github.com/DimOsSpb/AI-Dev-Diploma/tree/v0.5.4)
 ## Модуль оценки качества RAG [evaluate.py](https://github.com/DimOsSpb/AI-Dev-Diploma/tree/v0.5.4/tests/eval
