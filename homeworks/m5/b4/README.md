@@ -241,5 +241,5 @@ Total time  : 1165.13 s
 ✓ Report: /home/odv/project/MY/Netology-AI-Dev/Diploma/docs/chunking_report.md
 ```
 ## Вывод
-- Очень большое значение имеет качество Golden dataset для оценки RAG и в самом корпусе документации (его содержательность и релевантность с dataset) [retrieval_dataset.json](https://github.com/DimOsSpb/AI-Dev-Diploma/tree/v0.5.4/tests/eval/retrieval_dataset.json)
+- Очень большое значение имеет качество Golden dataset для оценки RAG и в самом корпусе документации (его содержательность и релевантность с dataset) [retrieval_dataset.json](https://github.com/DimOsSpb/AI-Dev-Diploma/tree/v0.5.4/tests/eval/rag/retrieval_dataset.json)
 - Отчет [docs/chunking_report.md](https://github.com/DimOsSpb/AI-Dev-Diploma/tree/v0.5.4/docs/chunking_report.md)
