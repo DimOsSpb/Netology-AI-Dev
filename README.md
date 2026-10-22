@@ -5,6 +5,8 @@
 - [Интеграция с ИИ API и архитектура приложений](homeworks/m3/README.md)
 - [Чат-боты и конверсационные интерфейсы](homeworks/m4/README.md)
 - [Векторные технологии и RAG-системы](homeworks/m5/README.md)
+- [Агентные системы](homeworks/m6/README.md)
+- [MLops](homeworks/m7/README.md)
 ---
 ## Ссылки на ресурсы
 - [uv, ruff](https://docs.astral.sh/ruff/)
