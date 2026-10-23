@@ -168,5 +168,5 @@ INFO
 INFO   naive: ✗
 INFO   react: ✗
 ```
-#Отчет
+# Отчет
 [/docs/agent-react-report.md](https://github.com/DimOsSpb/AI-Dev-Diploma/tree/v0.6.2/docs/agent-react-report.md)
