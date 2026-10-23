@@ -2,6 +2,7 @@
 ---
 
 # [Задание](6-3.md)
+---
 # Решение
 ```python
 (diploma) odv@matebook16s:~/project/MY/Netology-AI-Dev/Diploma$ uv run python -m scripts.visualize_graph
