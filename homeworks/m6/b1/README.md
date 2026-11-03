@@ -1,7 +1,8 @@
 # Блок 6.1 - Что такое агент: цикл и компоненты
 ---
-# [Задание](6-1.pdf)
 
+# [Задание](6-1.pdf)
+## [Репозиторий с работой](https://github.com/DimOsSpb/AI-Dev-Diploma/tree/v0.6.1-1)
 # Решение
 [Log](https://github.com/DimOsSpb/AI-Dev-Diploma/blob/v0.6.1-1/docs/agent-naive-traces/logs.md)
 ```bash
